@@ -24,9 +24,19 @@ const students = [
 
 
 
-for(let i=0; i<students.length; i++){
+/*for(let i=0; i<students.length; i++){
   const student=students[i]
   if(student.name=='Marco Lanci'){
     console.log(student.class)
   }
-}
+}*/
+
+
+
+
+
+students.forEach((student)=>{
+  if(student.name=='Marco Lanci'){
+    console.log(student.class)
+  }
+})
