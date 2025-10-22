@@ -10,10 +10,16 @@ const posts = [
 
 const postsAuthor=[]
 
-for(let i=0; i<posts.length; i++){
+/*for(let i=0; i<posts.length; i++){
 
   const post=posts[i]
   postsAuthor.push(post.author)
   
 }
+console.log(postsAuthor)*/
+
+
+posts.forEach(post => {
+  postsAuthor.push(post.author)
+});
 console.log(postsAuthor)
