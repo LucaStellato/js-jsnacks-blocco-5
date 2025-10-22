@@ -8,6 +8,10 @@ const names = ['Edoardo', 'Simone', 'Francesco'];
     console.log(name)
 }*/
 
-names.forEach(function(name){
+
+
+/*names.forEach(function(name){
     console.log(name)
-})
+})*/
+
+
