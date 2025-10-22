@@ -35,8 +35,15 @@ const students = [
 
 
 
-students.forEach((student)=>{
+/*students.forEach((student)=>{
   if(student.name=='Marco Lanci'){
     console.log(student.class)
   }
+})*/
+
+
+
+const className = students.find((student)=>{
+  return student.name=='Marco Lanci'
 })
+console.log(className.class)
