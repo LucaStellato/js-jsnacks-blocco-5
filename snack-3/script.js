@@ -10,8 +10,13 @@ const numberArray=[]
 console.log(number)*/
 
 
-numbers.forEach(number => {
+/*numbers.forEach(number => {
     numberArray.push(number+1)
     
 });
+console.log(numberArray)*/
+
+numbers.map((number)=>{
+    numberArray.push(number+1)
+})
 console.log(numberArray)
