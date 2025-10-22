@@ -17,7 +17,7 @@ const zucchine = [
 const zucchineCm=[]
 const otherZucchine=[]
 
-for(let i=0; i<zucchine.length; i++){
+/*for(let i=0; i<zucchine.length; i++){
   const zucchina = zucchine[i]
   if(zucchina.length>=15){
     zucchineCm.push(zucchina)
@@ -25,5 +25,16 @@ for(let i=0; i<zucchine.length; i++){
     otherZucchine.push(zucchina)
   }
 }
+console.log(zucchineCm)
+console.log(otherZucchine)*/
+
+
+zucchine.forEach((zucchina)=>{
+   if(zucchina.length>=15){
+    zucchineCm.push(zucchina)
+  }else{
+    otherZucchine.push(zucchina)
+  }
+})
 console.log(zucchineCm)
 console.log(otherZucchine)
