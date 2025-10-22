@@ -32,8 +32,14 @@ const students = [
 
 
 
-students.forEach((student)=>{
+/*students.forEach((student)=>{
   if(student.id==2){
     console.log(student)
   }
+})*/
+
+
+const foundId=students.find((student)=>{
+ return student.id==2
 })
+console.log(foundId)
