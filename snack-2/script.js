@@ -7,7 +7,11 @@ const people = [
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
 
-for(let i=0;i<people.length;i++){
+/*for(let i=0;i<people.length;i++){
 const person= people[i];
 console.log(person.name)
-}
+}*/
+
+people.forEach(person => {
+  console.log(person.name)
+});
