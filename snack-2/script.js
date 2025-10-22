@@ -12,6 +12,10 @@ const person= people[i];
 console.log(person.name)
 }*/
 
-people.forEach(person => {
+/*people.forEach(person => {
   console.log(person.name)
-});
+});*/
+
+people.map((person)=>{
+  console.log(person.name)
+})
