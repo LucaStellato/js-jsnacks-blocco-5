@@ -19,7 +19,15 @@ const postsAuthor=[]
 console.log(postsAuthor)*/
 
 
-posts.forEach(post => {
+/*posts.forEach(post => {
   postsAuthor.push(post.author)
 });
-console.log(postsAuthor)
+console.log(postsAuthor)*/
+
+
+
+const postAuthor = posts.map((post)=>{
+  console.log(post.author)
+  return post.author
+})
+console.log(postAuthor)
